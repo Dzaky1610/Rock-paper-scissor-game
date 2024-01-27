@@ -1,0 +1,56 @@
+DOM atau document object model adalah sebuah document yang merepresentasikan element html menjadi sebuah object model
+
+Sturktur hierarki DOM 
+
+-- Root Node
+Node yang menjadi sumber dari semua node lain yaitu document
+
+-- Parent Node 
+Node yang berada 1 tingkat diatas Node Yang lain yaitu Body
+
+--Child Node 
+Node yang berada 1 tingkat dibawah Node Yang lain yaitu h4 or whatever
+
+Children Node 
+Node yang berada 1 tingkat dibawah Child Node
+
+Dan seterusnya
+
+
+ // Manipulation Element
+// element.inner.HTML
+// eleelemnt.ment.style.<property Css>
+// element.setAttribute()
+// element.classList            
+
+
+.element.classList.Add() -> Menambah Class
+.element.classList.Remove() -> Menghapus Class
+.element.classList.Toggle() -> Menambah jika tidak ada menghapus jika ada
+.element.classList.Item()  -> Mencari Class
+.element.classList.Contains() -> Mengecek Class
+.element.classList.Contains() -> Mengganti Class
+
+
+
+// Manipulation Node
+  document.createElement();
+  document.createTextElement();
+  document.appendChild();
+  node.insertBefore();
+  parentNode.removeChild();
+  parentNode.replaceChild();
+
+  
+
+
+// Materi Event
+
+Event pada javascript mempresentasikan kejadian yang terjadi di dalam DOM
+Kejadian tersebut dilakukan pada user ataupun dilakukan oleh API
+
+- Event Handler
+ . Inline HTML Attribute
+ . Element Method
+
+ . addEventListener();
